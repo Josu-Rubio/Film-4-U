@@ -1,0 +1,19 @@
+body{
+    background-image: url(./Img/orange-corn-kernels-60507.jpg);
+}
+header{
+    background-color: rgb(255, 255, 255, 0.2);
+    max-height: 120px;
+}
+.webName{
+    margin: auto;
+}
+main{
+    background-color: rgb(255, 255, 255, 0.2);
+    margin: auto;
+    width: 30%;
+    border: 7px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}

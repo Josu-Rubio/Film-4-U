@@ -4,16 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylesheet.css">
     <title>Film-4-u</title>
 </head>
 <body>
     <header>  
-    <nav>
+    <nav class="header">
         <!--Logo/Nombre de la página-->
-        <img src="./Img/cinematic-bars-clipart-icon-9-transparent.png" alt="">
-        <div>Film 4 U</div>
+        <img src="./Img/cinematic-bars-clipart-icon-9-transparent.png" alt="Logo Web" height="100px">
+        <div class="webName">Film 4 U</div>
     </nav>
     </header>
+    <hr>
+    <main>
+        <form action="./main-page.html">
+            <p>A real e-mail or else...</p>
+            <p>
+                <label for="form-email"></label>
+                <input type="email" name="email" id="form-email" placeholder="User/e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required autofocus>
+            </p>
+            <p>Password with 6 Characters at least</p>
+            <p>
+                <label for="form-password"></label>
+                <input type="password" name="password" id="form-password" placeholder="password" pattern=".{6,}" required autofocus>
+            </p>
+            <a href="">Forgot Your Password?</a>
+            <button type="submit" tabindex="1">Continue</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 
 </body>
 </html>
