@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Calistoga', cursive;
 }
 header{
     background-color: rgb(255, 255, 255, 0.3);
@@ -10,13 +11,19 @@ header{
 header img{
     padding: 5px;
 }
-ul{
-    float: right;
+header ul{
+    float: left;
+    margin-left: center;
 }
-li{
-    float: right;
+header li{
+    float: left;
     margin: auto;
     text-align: justify;
+    margin: auto;
+    width:auto;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
 }
 .webName{
     float: left;
@@ -43,7 +50,37 @@ main{
 input{
     width: 60%;
 }
-section{
-    color:white;
 
+footer{
+    margin: 100px auto;
+    clear:both;
+    border-top:1px dashed rgb(184, 178, 178);
+    height: 30px;
+}
+footer p{
+    margin-top: 50px;
+    margin-left: 35%;
+    float: left;
+    color:grey;
+    font-size: 20px;
+}
+footer ul{
+    float: left;
+    margin-left: center;
+}
+footer li{
+    float: left;
+    margin: 25px;
+    width:auto;
+    padding-top: 25px;
+    border-image: round ;
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+    -moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
+    -ms-transition:-ms-transform 0.3s ease-in-out 0.1s;
+
+}
+li img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
