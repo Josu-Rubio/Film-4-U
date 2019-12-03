@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./resetsheet.css">
     <link rel="stylesheet" href="./stylesheet.css">
-    <title>Film-4-u</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calistoga&display=swap">    
+    <title>Films 4 U</title>
+
 </head>
 <body>
     <header>  
     <nav class="header">
         <!--Logo/Nombre de la página-->
-        <img src="./Img/cinematic-bars-clipart-icon-9-transparent.png" alt="Logo Web" height="100px">
-        <div class="webName">Film 4 U</div>
+        <img src="./Img/83519.png" alt="Logo Web" height="100px">
+        <div class="webName">Films 4 U</div>
     </nav>
+    
     </header>
-    <hr>
     <main>
-        <form action="./main-page.html">
+        <form class="main-form" action="./main-page.html">
             <p>A real e-mail or else...</p>
             <p>
                 <label for="form-email"></label>
@@ -28,8 +31,10 @@
                 <label for="form-password"></label>
                 <input type="password" name="password" id="form-password" placeholder="password" pattern=".{6,}" required autofocus>
             </p>
-            <a href="">Forgot Your Password?</a>
-            <button type="submit" tabindex="1">Continue</button>
+            <button type="submit">Continue</button>
+            <br>
+            <br>
+            <a class="forgot" href="">Forgot Your Password?</a>
         </form>
     </main>
     <footer>

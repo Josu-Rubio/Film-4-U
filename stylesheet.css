@@ -1,19 +1,46 @@
 body{
-    background-image: url(./Img/orange-corn-kernels-60507.jpg);
+    background-color: black;
 }
 header{
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgb(255, 255, 255, 0.5);
     max-height: 120px;
+    border-radius: 10px;
+}
+ul{
+    float: right;
+}
+li{
+    float: right;
+    margin: auto;
+    text-align: justify;
+    
 }
 .webName{
-    margin: auto;
+    float: left;
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+    font-size: 48px;
+    top: 30px;
+
 }
 main{
-    background-color: rgb(255, 255, 255, 0.2);
-    margin: auto;
-    width: 30%;
-    border: 7px solid black;
-    border-radius: 5px;
-    padding: 10px;
+    background:rgb(55, 56, 56);
+    width: 40%;
+    border-radius: 10px;
+    margin:15px auto;
     text-align: center;
+    padding: 5px;
+    color: white;
+    box-shadow: rgb(58, 56, 56) 5px 5px 10px;
+    font-size: 25px;
+}
+.forgot{
+    color: white;
+}
+input{
+    width: 60%;
+}
+section{
+    color:white;
+
 }
