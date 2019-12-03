@@ -2,9 +2,13 @@ body{
     background-color: black;
 }
 header{
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: rgb(84, 84, 85) 5px 5px 10px;
     max-height: 120px;
     border-radius: 10px;
+}
+header img{
+    padding: 5px;
 }
 ul{
     float: right;
@@ -13,15 +17,14 @@ li{
     float: right;
     margin: auto;
     text-align: justify;
-    
 }
 .webName{
     float: left;
+    margin:15px auto;
+    padding: 10px;
     text-align: center;
     font-family: 'Calistoga', cursive;
     font-size: 48px;
-    top: 30px;
-
 }
 main{
     background:rgb(55, 56, 56);
@@ -31,8 +34,8 @@ main{
     text-align: center;
     padding: 5px;
     color: white;
-    box-shadow: rgb(58, 56, 56) 5px 5px 10px;
     font-size: 25px;
+    margin-top: 12%;
 }
 .forgot{
     color: white;
