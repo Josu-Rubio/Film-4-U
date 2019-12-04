@@ -3,30 +3,37 @@ body{
     font-family: 'Calistoga', cursive;
 }
 header{
-    background-color: rgb(255, 255, 255, 0.3);
-    box-shadow: rgb(84, 84, 85) 5px 5px 10px;
+    background-color: rgba(77, 72, 72);
     height: auto;
-    border-radius: 10px;
+    align-content: center;
+
 }
 header img{
     padding: 5px;
 }
-header ul{
+.webName{
+    float: left;
+    margin:15px auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+    font-size: 48px;
+}
+header nav{
+    background-color: rgb(211, 42, 42);
     float: right;
-    overflow: auto;
+    width: auto;
     margin-right: 40%;
 }
 header li{
     background-color: rgba(15, 1, 1, 0.8);
-    border-radius: 10px;
+    border-radius: 5px;
     float: left;
-    margin: 10px;
+    margin: 5px;
     width:auto;
-    text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
-    text-decoration: none;
-    
+    position: static;
 }
 header li a{
     text-decoration: none;
@@ -37,32 +44,9 @@ header li a{
     right:10px;
     top:5px;
 }
-.webName{
-    float: left;
-    margin:15px auto;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Calistoga', cursive;
-    font-size: 48px;
+header a img{
+    border-radius: 50%;
 }
-main{
-    background:rgb(55, 56, 56);
-    width: 40%;
-    border-radius: 10px;
-    margin:15px auto;
-    text-align: center;
-    padding: 5px;
-    color: white;
-    font-size: 25px;
-    margin-top: 8%;
-}
-.forgot{
-    color: white;
-}
-input{
-    width: 60%;
-}
-
 footer{
     margin: 100px auto;
     clear:both;
@@ -85,13 +69,14 @@ footer li{
     margin: 25px;
     width:auto;
     padding-top: 25px;
-    border-image: round ;
     -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
     -moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
     -ms-transition:-ms-transform 0.3s ease-in-out 0.1s;
-
 }
-li img:hover{
+footer li img{
+    border-radius: 7px;
+}
+footer li img:hover{
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);

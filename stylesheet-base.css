@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    font-family: 'Calistoga', cursive;
+}
+header{
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: rgb(84, 84, 85) 5px 5px 10px;
+    height: auto;
+    border-radius: 10px;
+}
+header img{
+    padding: 5px;
+}
+.webName{
+    float: left;
+    margin:15px auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+    font-size: 48px;
+}
+main{
+    background:rgb(55, 56, 56);
+    width: 40%;
+    border-radius: 10px;
+    margin:15px auto;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    margin-top: 8%;
+}
+.forgot{
+    color: white;
+}
+input{
+    width: 60%;
+}
+footer{
+    margin: 100px auto;
+    clear:both;
+    border-top:1px dashed rgb(184, 178, 178);
+    height: 30px;
+}
+footer p{
+    margin-top: 50px;
+    margin-left: 35%;
+    float: left;
+    color:grey;
+    font-size: 20px;
+}
+footer ul{
+    float: left;
+    margin-left: center;
+}
+footer li{
+    float: left;
+    margin: 25px;
+    width:auto;
+    padding-top: 25px;
+    border-image: round ;
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+    -moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
+    -ms-transition:-ms-transform 0.3s ease-in-out 0.1s;
+
+}
+footer li img{
+    border-radius: 7px;
+}
+footer li img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
