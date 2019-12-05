@@ -20,19 +20,51 @@ header img{
     font-size: 48px;
 }
 header nav{
-    background-color: rgb(211, 42, 42);
+    background-color: rgb(77,72,72);
     float: right;
     width: auto;
     margin-right: 40%;
 }
-header li{
-    background-color: rgba(15, 1, 1, 0.8);
-    border-radius: 5px;
+#search, 
+#submit {
     float: left;
+}
+
+#search {
+    padding: 5px 9px;
+    height: 20px;
+    width: 250px;
+    border: 1px solid #646464;
+    background: white;
+    border-radius: 50px 3px 3px 50px;
+}
+
+#submit
+{       
+    background-color: rgba(43, 1, 1, 0.8);
+    border-radius: 3px 50px 50px 3px;    
+    height: 32px;
+    padding: 0;
+    width: 90px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;    
+}
+
+
+#submit:active {       
+    background: rgb(43, 1, 1, 0.8);
+    outline: none;
+}
+
+header li{
+    display: inline-block;
+    background-color: rgba(43, 1, 1, 0.8);
+    border-radius: 5px;
     margin: 5px;
-    width:auto;
     padding: 5px;
     font-size: 20px;
+    width:auto;
     position: static;
 }
 header li a{
@@ -46,6 +78,48 @@ header li a{
 }
 header a img{
     border-radius: 50%;
+}
+figure{
+    display: inline-block;
+    border: 2px white;
+    position: relative;
+}
+.movie-galerie img{
+    position: relative;
+    padding:4px;
+    background-color:grey;
+    border-radius:20px;
+    -webkit-transition:opacity 0.3s ease-in-out 0.1s;
+    top:100px;
+}
+.movie-galerie img:hover{
+    opacity: 0.1;
+}
+figcaption{
+    color: red;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    -webkit-transition:opacity 0.3 ease-in-out 0.5s;
+    opacity: 0;
+    font-size: large;
+
+}
+.movie-galerie figcaption:hover{
+    opacity: 1;
+}
+figure button{
+    position: relative;
+    top:-200px;
+    left: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(61, 4, 4);
+    color: white;
 }
 footer{
     margin: 100px auto;
