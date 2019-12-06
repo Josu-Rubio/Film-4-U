@@ -3,8 +3,7 @@ body{
     font-family: 'Calistoga', cursive;
 }
 header{
-    background-color: rgb(255, 255, 255, 0.3);
-    box-shadow: rgb(84, 84, 85) 5px 5px 10px;
+    background-color: grey;
     height: auto;
     border-radius: 10px;
 }
@@ -19,8 +18,9 @@ header img{
     font-family: 'Calistoga', cursive;
     font-size: 48px;
 }
-main{
-    background:rgb(55, 56, 56);
+form{
+    background-color:grey;
+    position: relative;
     width: 40%;
     border-radius: 10px;
     margin:15px auto;
