@@ -77,7 +77,6 @@ footer li{
     -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
     -moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
     -ms-transition:-ms-transform 0.3s ease-in-out 0.1s;
-
 }
 footer li img{
     border-radius: 7px;

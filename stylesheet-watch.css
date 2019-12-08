@@ -109,6 +109,56 @@ header a img{
         height:40px;
     }
 }
+main{
+background-color: grey;
+width: 90%;
+position: relative;
+left: 5%;
+margin-top: 2%;
+border-radius: 10px;
+}
+.video{
+    float: left;
+    margin:10px;
+    margin-top: 2%;    
+}
+iframe{
+    width: 400px;
+    height: 280px;
+}
+@media screen and (max-width:600px){
+    iframe{
+        width: 200px;
+        height: 140px;        
+    }
+}
+
+section{
+    padding: 5px;
+    `position: absolute;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+.name{
+position: relative;
+left: 5%;
+float: left;
+}
+.rating{
+    position: relative;
+    left: 15%
+}
+.rating img{
+    float: left;
+}
+.related{
+    background-color: grey;
+    height: 200px;
+}
 figure{
     float: left;
     border: 2px white;
@@ -125,63 +175,13 @@ figure{
     width: 200px;
     height: 300px;
 }
-figcaption{
-    color: rgb(255, 136, 0);
-    text-align: center;
-    position: relative;
-    top: -260px;
-    left: 5px;
-    border-radius: 15px;
-    width: 200px;
-    height: 300px;
-    background-color: black;
-    box-sizing: border-box;
-    opacity: 0;
-    font-size: large;
-    -webkit-transition:opacity 0.3;
-    -moz-transition:opacity 0.3;
-    -ms-transition:opacity 0.3;
-}
-.movie-galerie figcaption:hover{
-    opacity: 1;
-}
-figure button{
-    position: relative;
-    top:-250px;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: rgb(61, 4, 4);
-}
-figure button a{
-    text-decoration: none;
-    color: white;
-}
+
 @media screen and (max-width:600px){
     figure{
         height: 180px;
         width: 120px;
         position: static;
         margin: 2px;
-    }
-    .movie-galerie img{
-        width: 100px;
-        height: 150px;
-        top:20px;
-    }
-    figure button{
-        font-size: 10px;
-        width: 50px;
-        height: 15px;
-        border-radius: 5px;
-        top: -135px;
-    }
-    figcaption{
-        top: -140px;
-        left: 10px;
-        width: 100px;
-        height: 150px;
-        font-size: 8px;
     }
 }
 footer{
