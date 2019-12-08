@@ -110,12 +110,12 @@ header a img{
     }
 }
 main{
-background-color: grey;
-width: 90%;
-position: relative;
-left: 5%;
-margin-top: 2%;
-border-radius: 10px;
+    background-color: grey;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
 }
 .video{
     float: left;
@@ -127,21 +127,65 @@ iframe{
     height: 280px;
 }
 @media screen and (max-width:600px){
+    main{
+        background-color: black;
+    }
+    .video{
+        background-color: grey;
+        width: 100%;
+        position: relative;
+        left: -2.5%;
+        border-radius: 10px 10px 0px 0px;
+    }
     iframe{
         width: 200px;
-        height: 140px;        
+        height: 140px;
+        position: relative;
+        left: 20%;
+        top: 10px;
+        margin-bottom: 15px;
     }
 }
 
 section{
     padding: 5px;
-    `position: absolute;
+    background-color: grey;
 }
-h1{
-    font-size: 30px;
+
 }
-h2{
-    font-size: 25px;
+@media screen and (max-width:600px){
+    section{
+        float:left;
+    }
+}
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    p{
+        text-indent: 20px;
+        text-align: justify;
+        margin-right: 10px;
+}
+@media screen and (max-width:600px){
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size:14px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    p{
+        font-size: 8px;
+    }
 }
 .name{
 position: relative;
@@ -158,6 +202,15 @@ float: left;
 .related{
     background-color: grey;
     height: 200px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 2px double darkred;
+    left: 15%;
+}
+@media screen and (max-widht:600px){
+    .related{
+        width: 100%;
+    }
 }
 figure{
     float: left;
@@ -188,9 +241,11 @@ footer{
     position: fixed;
     width: 100%;
     border-top: 1px dashed white;
-    background-color: black;
     bottom: 0px;
     text-align: center;
+}
+footer section{
+    background-color: black;
 }
 footer li{
     display: inline-block;
