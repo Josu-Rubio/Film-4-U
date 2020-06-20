@@ -31,4 +31,6 @@ The main section of the page is composed of different figures, all them displaye
 The watch page consists of a model (every movie redirect to the same page) of how the total information on such movie should be shown.
 It consists of a video of the movie (a trailer, actually), the complete information about it, and some related movies.
 
-- Thank you for checking on this repository. Any issue you could find, or any question about it, do not hesitate to contact me.
+
+<sub><sup>combining the two tags</sup></sub>
+Thank you for checking on this repository. Any issue you could find, or any question about it, do not hesitate to contact me.
