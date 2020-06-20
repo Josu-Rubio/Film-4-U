@@ -5,87 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./resetsheet.css">
-    <link rel="stylesheet" href="./stylesheet-watch.css">
+    <link rel="stylesheet" href="./style/resetsheet.css">
+    <link rel="stylesheet" href="./style/stylesheet-watch.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calistoga&display=swap">
     <title>Films 4 U</title>
 
 </head>
+
 <body>
     <header>
-        <div>Films 4 U</div>
-        <img src="./Img/83519.png">
+        <div id="home"><a href="./main-page.html" style="text-decoration:none; color:black">Films 4 U<img
+                    src="./Img/Icons/logo.png"></a></div>
         <nav>
-            <ul>
-                <li><a href="./main-page.html#movie">Movies</a></li>
-                <li><a href="./main-page.html#serie">Series</a></li>
-                <li><a href="./main-page.html#favourite">Favourites</a></li>
-                <li><a href="./main-page.html#news">News</a></li>
-            </ul>
-            <form id="searchbox" action="">
-                <input id="search" type="text" placeholder="Type here">
-                <input id="submit" type="submit" value="Search">
-            </form>
+            <nav>
+                <ul>
+                    <li><a href="./main-page.html#movie">Movies</a></li>
+                    <li><a href="./main-page.html#serie">Series</a></li>
+                    <li><a href="./main-page.html#favourite">Favourites</a></li>
+                    <li><a href="./main-page.html#news">News</a></li>
+                </ul>
+                <form id="searchbox" action="">
+                    <input id="search" type="text" placeholder="Type here">
+                    <input id="submit" type="submit" value="Search">
+                </form>
+            </nav>
+            <a class="log-out" href="./index.html"><img src="./Img/Icons/logout-icon.jpg" alt="Log Out" height="30px">
+            </a>
         </nav>
-        <a class="log-out" href="./index.html"><img src="./Img/logout-icon.png" alt="Log Out" height="30px"></a>
     </header>
     <main class="trailer-screen">
-    <div class="video">
-    <iframe src="https://www.youtube.com/embed/sY1S34973zA" frameborder="2"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <br>    
-    <section class="information">
-        <div class="top-info">
-        <article class="name"><h1>The Godfather (1972)</h1></article>
-        <article class="rating"><img src="./Img/star.png" alt="star" height="20px"><h1>9,2/10</h1></article>
+        <div class="container">
+            <div class="video-info">
+
+                <div>
+                    <iframe class="video" src="./Video/The Godfather Trailer.mp4" frameborder="2"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <br>
+                <section class="information">
+                    <div class="top-info">
+                        <article class="name">
+                            <h1>The Godfather (1972)</h1>
+                        </article>
+                        <article class="rating"><img src="./Img/Icons/star.png" alt="star" height="20px">
+                            <h1>9,2/10</h1>
+                        </article>
+                    </div>
+                    <article class="movie-info">
+                        <h3>Director</h3>
+                        <p><i>Francis Ford Coppola</i></p>
+                        <h3>Cast</h3>
+                        <p><i>Marlon Brando, Al Pacino, James Caan, Richard Castellano, Robert Duvall, Sterling Hayden,
+                                John
+                                Marley, Richard Conte, Diane Keaton</i></p>
+                        <h3>Synopsis</h3>
+                        <p>Widely regarded as one of the greatest films of all time, this mob drama, based on Mario
+                            Puzo's
+                            novel
+                            of the same name,
+                            focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando).
+                            When
+                            the
+                            don's youngest son,
+                            Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable
+                            cycle of
+                            violence and betrayal.
+                            Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton),
+                            he
+                            is
+                            drawn deeper into the
+                            family business.</p>
+                    </article>
+                </section>
+            </div>
+            <br>
+            <div class="related">
+                <h2>Related</h2>
+                <div class="related-figures">
+                    <figure>
+                        <a href="./watch-page.html"><img src="./Img/Movies/The Godfather - Part II.jpg" alt="Gofather 2"
+                                width="100" height="150">
+                        </a>
+
+                    </figure>
+                    <figure>
+                        <a href="./watch-page.html"><img src="./Img/Movies/The Godfather - Part III.jpg"
+                                alt="Goodfather 3" width="100" height="150">
+                        </a>
+                    </figure>
+                </div>
+
+            </div>
+
         </div>
-        <article class="movie-info">
-            <h3>Director</h3>
-            <p><i>Francis Ford Coppola</i></p>
-            <h3>Cast</h3>
-            <p><i>Marlon Brando, Al Pacino, James Caan, Richard Castellano, Robert Duvall, Sterling Hayden, John Marley, Richard Conte, Diane Keaton</i></p>
-            <h3>Synopsis</h3>
-            <p>Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name,
-            focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando). When the don's youngest son,
-            Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal.
-            Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the
-            family business.</p>
-        </article>
-        <br>
-        <div class="related">
-            <h2>Related</h2>
-            <figure>
-                <a href="./watch-page.html"><img
-                        src="https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
-                        alt="Gofather 2" width="100" height="150">
-                </a>
-        
-            </figure>
-            <figure>
-                <a href="./watch-page.html"><img src="https://upload.wikimedia.org/wikipedia/en/5/55/GodfatherIII2.jpg"
-                        alt="Goodfather 3" width="100" height="150">
-                </a>
-            </figure>
-        
-        </div>
-    </section>
-    
-</main>
+
+
+    </main>
     <footer>
         <section>
             <p>Where to find us</p>
             <ul>
-                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="./Img/fb-logo.png" alt="Facebook"
-                            width="30px"></a></li>
-                <li><a href="https://twitter.com" target="_blank" rel="noopener"><img src="./Img/twitter-logo.jpg" alt="Twitter"
-                            width="30px"></a></li>
-                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="./Img/instagram-logo.jpg"
-                            alt="Instagram" width="30px"></a></li>
-                <li><a href="https://www.linkedin.com" target="_blank" rel="noopener"><img src="./Img/linkedin-logo.png"
-                            alt="Linkedin" width="30px"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><img
+                            src="./Img/Icons/fb-logo.jpg" alt="Facebook" width="30px"></a></li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener"><img src="./Img/Icons/twitter-logo.jpg"
+                            alt="Twitter" width="30px"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><img
+                            src="./Img/Icons/instagram-logo.jpg" alt="Instagram" width="30px"></a></li>
+                <li><a href="https://www.linkedin.com" target="_blank" rel="noopener"><img
+                            src="./Img/Icons/linkedin-logo.jpg" alt="Linkedin" width="30px"></a></li>
             </ul>
         </section>
     </footer>
 </body>
+
 </html>
