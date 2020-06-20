@@ -10,7 +10,7 @@ On the first page we find the a form with different inputs such as "user" and "p
 
 - We have created a pattern for the "user" input which has to be completed with an E-mail or similiar
 
-  `Egg: user@example.com`
+  `E.g.: user@example.com`
 
 - The password must contain at least 6 digits.
 
