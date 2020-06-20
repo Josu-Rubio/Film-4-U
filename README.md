@@ -9,6 +9,7 @@ The project consist of 3 pages.
 On the first page we find the a form with different inputs such as "user" and "password".
 
 - We have created a pattern for the "user" input which has to be completed with an E-mail or similiar
+
   `Egg: user@example.com`
 
 - The password must contain at least 6 digits.
@@ -32,5 +33,5 @@ The watch page consists of a model (every movie redirect to the same page) of ho
 It consists of a video of the movie (a trailer, actually), the complete information about it, and some related movies.
 
 
-<sub><sup>combining the two tags</sup></sub>
-Thank you for checking on this repository. Any issue you could find, or any question about it, do not hesitate to contact me.
+<sub><sup>Thank you for checking on this repository. Any issue you could find, or any question about it, do not hesitate to contact me.</sup></sub>
+
